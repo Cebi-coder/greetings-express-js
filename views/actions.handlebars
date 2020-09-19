@@ -1,0 +1,22 @@
+<div class="row">
+    <h1>Actions</h1>
+    <table>
+
+        <tr>
+            <th>name</th>
+            <th>times</th>
+            <th>when</th>
+            </th>
+
+            {{#each actions}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{times}}</td>
+            <td>{{prettyDate}}</td>
+
+        </tr>
+        {{/each}}
+
+    </table>
+
+</div>

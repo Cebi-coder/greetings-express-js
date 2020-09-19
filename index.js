@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const Greetings = require('./greetings');
 let app = express();
-const greet = Greeting();
+const greet = Greetings();
 
 
 
@@ -21,12 +21,11 @@ app.use(bodyParser.json())
 app.get('/', function (req, res) {
 
   res.render('index', {
-      name: Greetings.getName(),
-      counter: Greetings.greetCount(),
-      color: Greetings.greetUser()
-
+      
   });
-})
+});
+//  app.post('/greetings', function (language,name )),
+//  greetings.nameCount();
 
 
 let PORT = process.env.PORT || 3012;

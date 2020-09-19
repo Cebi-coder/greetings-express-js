@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.container {
+	width: 90%;
+	margin:	auto;
+	
+}
+
+.heading{
+
+	margin-left: 20%
+}
+
+.name {
+margin-left: 25%;
+font-size: 2em;
+}
+
+.nameEntered {
+    
+    margin-left: 15%; 
+   padding: 1em;
+   border-radius: 0.5em;
+   font-size: 1em;
+}
+
+.filter{
+
+   margin-left: 23%;
+}
+
+.btn {
+   margin-left: 40%;
+   padding: 1em;
+   font-size: 0.90em;
+   font-weight: bold;
+   border-radius: 1em;
+   background-color:rgb(247, 7, 195);
+
+}
+
+.message {
+   
+   height: 1em;
+   font-weight: bold;
+   color: blue;
+}
+
+input[type='radio'] {
+   
+   
+  /* width: auto;  */
+  margin-left: 4em; 
+}

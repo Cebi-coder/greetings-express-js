@@ -17,15 +17,6 @@ module.exports = function Greetings() {
 
     }
 
-    function getName() {
-        return {
-            countGreetings,
-            nameCount,
-            greetUser,
-        }
-
-    }
-
     function nameCount() {
 
         if (greetObj === undefined) {
@@ -46,12 +37,12 @@ module.exports = function Greetings() {
 
         if (language === "English") {
 
-            return "Hello" = name
+            return "Hello" + name
         }
 
         if (language === "isiZulu") {
 
-            return "Sawubona" = name
+            return "Sawubona" + name
         }
 
         if (language === "isiXhosa") {
@@ -60,7 +51,7 @@ module.exports = function Greetings() {
         }
     }
     return {
-        getName,
+        
         countGreetings,
         nameCount,
         greetUser,
